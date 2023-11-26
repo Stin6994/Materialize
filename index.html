@@ -6,16 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="lib/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="lib/materialize.css" media="screen,projection" />
     <link rel="stylesheet" href="css/style.css">
     <title>Materialize</title>
 </head>
 
 <body>
+    <!--  Первое подключение для проверки -->
+    <!--   <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div> -->
 
-    <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
-            
+    <!-- Сетка -->
+    <!--     С контейнером занимает % от экрана (% зависит от размера экрана) -->
+    <div class="container">
+        <div class="row">
+            <div class="grid col s4">1</div>
+            <div class="grid col s4">2</div>
+            <div class="grid col s4">3</div>
+        </div>
+    </div>
+    <!-- Без контейнера занимает 100% -->
+    <div class="row">
+        <div class="grid col s4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sequi.</div>
+        <div class="grid col s4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sequi.</div>
+        <div class="grid col s4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sequi.</div>
+    </div>
+    <!-- Отступы -->
+    <div class="row">
+        <div class="grid col s12">Lorem ipsum dolor sit amet.</div>
+        <div class="grid col s6 offset-s5">Lorem ipsum dolor sit amet.</div>
+    </div>
 
+    <!--  Адаптивная сетка с контейнером и без -->
+    <div class="row">
+        <div class="grid col s12">Lorem ipsum dolor sit amet.</div>
+        <div class="grid col s12 m9 l6 xl2">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="grid col s12">Lorem ipsum dolor sit amet.</div>
+            <div class="grid col s12 m9 l6 xl2">Lorem ipsum dolor sit amet.</div>
+        </div>
+    </div>
 
 
 
@@ -23,29 +55,6 @@
 
     <script type="text/javascript" src="lib/materialize.js"></script>
     <script src="js/script.js"></script>
-</body>
-
-</html>
-
-
-
-<!DOCTYPE html>
-<html>
-
-<head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body>
-
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>
